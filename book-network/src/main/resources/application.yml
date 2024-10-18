@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-request-size: 50MB
+
+springdoc:
+  default-produces-media-type: application/json
+
+server:
+  servlet:
+    context-path: /BSN
