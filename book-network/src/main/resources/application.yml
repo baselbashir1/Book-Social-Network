@@ -10,4 +10,4 @@ springdoc:
 
 server:
   servlet:
-    context-path: /BSN
+    context-path: /api/v1
